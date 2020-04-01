@@ -1,0 +1,50 @@
+{
+  "name": "calendarproject",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint *.js",
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "chalk": "^2.4.2",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "datalize": "^0.3.4",
+    "debug": "^2.6.9",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "http-errors": "^1.7.3",
+    "http-status": "^1.3.2",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "swagger-jsdoc": "^3.3.0",
+    "swagger-ui-express": "^4.0.7",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.7.2",
+    "express-swagger-generator": "^1.1.15"
+  },
+  "description": "<!-- START doctoc generated TOC please keep comment here to allow auto update -->\r <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->\r **Table of Contents**",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/codeengine-interns/internship-summer-2019-3th-year-seinfeld-calendar-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/codeengine-interns/internship-summer-2019-3th-year-seinfeld-calendar-be/issues"
+  },
+  "homepage": "https://gitlab.com/codeengine-interns/internship-summer-2019-3th-year-seinfeld-calendar-be#readme"
+}
